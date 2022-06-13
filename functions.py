@@ -17,16 +17,16 @@ def check_winner(player:str, cpu_values:str):
         print(f"Both players selected {player.capitalize()}. It's a tie!")
     elif player == "r":
         if cpu_values == "s":
-            print("Rock smashes scissors! You win!")
+            print("Rock beats Scissors! You Win!")
         else:
-            print("Paper covers rock! You lose.")
+            print("Paper beats Rock! You Lose.")
     elif player == "p":
         if cpu_values == "r":
-            print("Paper covers rock! You win!")
+            print("Paper beats Rock! You Win!")
         else:
-            print("Scissors cuts paper! You lose.")
+            print("Scissors cuts paper! You Lose.")
     elif player == "s":
         if cpu_values == "p":
-            print("Scissors cuts paper! You win!")
+            print("Scissors beats Paper! You Win!")
         else:
-            print("Rock smashes scissors! You lose.")
+            print("Rock beats Scissors! You Lose.")

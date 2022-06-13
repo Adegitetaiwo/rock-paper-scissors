@@ -46,7 +46,7 @@ while True:
     # to break for continue in the loop.
     # the capital N means defualt value
 
-    play_again = input("Would you love to Play again? (y/N): ")
+    play_again = input("\nWould you love to Play again? (y/N): ")
     if play_again.lower() == "y" or play_again.lower() == "yes":
         continue
     else:
